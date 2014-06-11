@@ -16,6 +16,7 @@ public class Pizza implements Food {
 	 ingredients.add("ham");
 	 ingredients.add("mozzarella");
 	 ingredients.add("tomato");
+	 ingredients.add("mushroom"); //so good 
 	}
 	
 	@Override

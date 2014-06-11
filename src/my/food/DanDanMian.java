@@ -8,6 +8,12 @@ public class DanDanMian implements Food {
 
 	/* Exercise 1: implement Constructor */
 	
+	public DanDanMian(){
+		ingredients.add("noodle");
+		ingredients.add("spices");
+		ingredients.add("peanuts");
+	}
+	
 	@Override
 	public List<String> getIngredients() {
 		return ingredients;

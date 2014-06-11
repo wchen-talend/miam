@@ -8,6 +8,9 @@ public class ChaShaoBao implements Food {
 
 	List<String> ingredients = new ArrayList<String>();
 	
+	List<String> foodsInside = new ArrayList<String>();
+	
+	
 	//pork¡±, ¡°oyster sauce¡±, ¡°bread
 	//add something
 	public ChaShaoBao(String oyster,String sauce,String bread){
@@ -17,6 +20,7 @@ public class ChaShaoBao implements Food {
 		ingredients.add("banana");
 		ingredients.add("apple");
 		ingredients.add("icecream");
+		foodsInside.add(oyster);
 	}
 	
 	public ChaShaoBao(String oyster,String sauce,String bread,String banana){

@@ -4,4 +4,7 @@ public class MyTest {
 
 	}
 
+	public void helloWorld(){
+		
+	}
 }

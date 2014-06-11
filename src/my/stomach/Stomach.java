@@ -23,6 +23,7 @@ public class Stomach {
 		//foodsInside.add(new Pizza()); //I like Pizza
 		//foodsInside.add(new Pizza()); //I like Pizza
 		foodsInside.add(new ChaShaoBao("oyster","sauce","bread"));
+		foodsInside.add(new ChaShaoBao("oyster2","sauce2","bread2"));
 	}
 	@Override
 	public String toString() {

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DanDanMian implements Food {
+	
+	
 	List<String> ingredients = new ArrayList<String>();
 
 	/* Exercise 1: implement Constructor */
@@ -31,6 +33,10 @@ public class DanDanMian implements Food {
 	public DanDanMian(){
 		this("noodle","spices","peanuts","pepper");
 	}
+	
+	
+	
+	
 	
 	@Override
 	public List<String> getIngredients() {

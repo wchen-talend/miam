@@ -17,6 +17,7 @@ public class ChaShaoBao implements Food {
 		ingredients.add(oyster);
 		ingredients.add(sauce);
 		ingredients.add(bread);
+		foodsInside.add(oyster);
 	}
 	
 	public ChaShaoBao(String oyster,String sauce,String bread,String banana){

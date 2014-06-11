@@ -27,6 +27,7 @@ public class Stomach {
 		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
 		foodsInside.add(new ChaShaoBao("oyste1","sauce1","bread1"));
 		foodsInside.add(new ChaShaoBao("oyster2","sauce2","bread2"));
+		foodsInside.add(new ChaShaoBao("oyster2","sauce2","bread2"));
 	}
 	@Override
 	public String toString() {

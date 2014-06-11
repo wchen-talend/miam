@@ -7,6 +7,8 @@ public class DanDanMian implements Food {
 	
 	
 	List<String> ingredients = new ArrayList<String>();
+	
+	String feedBack ;
 
 	/* Exercise 1: implement Constructor */
 	
@@ -34,6 +36,9 @@ public class DanDanMian implements Food {
 		this("noodle","spices","peanuts","pepper");
 	}
 	
+	public String getFeedBack(){
+		return feedBack;
+	}
 	
 	
 	

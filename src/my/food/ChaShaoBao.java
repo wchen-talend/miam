@@ -44,5 +44,10 @@ public class ChaShaoBao implements Food {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	public Integer getBanana() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

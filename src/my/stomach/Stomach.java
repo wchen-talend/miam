@@ -22,6 +22,7 @@ public class Stomach {
 		/* Exercise 2 : add your food */
 		foodsInside.add(new Pizza()); //I like Pizza
 		foodsInside.add(new Pizza()); //I like Pizza
+		foodsInside.add(new ChaShaoBao("oyster","sauce","bread"));
 	}
 	@Override
 	public String toString() {

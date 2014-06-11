@@ -18,6 +18,7 @@ public class Stomach {
 		foodsInside.add(new Pizza());
 		foodsInside.add(new DanDanMian());
 		foodsInside.add(new DanDanMian());
+		foodsInside.add(new DanDanMian("tup-3 from wchen1"));
 		/* Exercise 2 : add your food */
 		foodsInside.add(new Pizza()); //I like Pizza
 		foodsInside.add(new Pizza()); //I like Pizza

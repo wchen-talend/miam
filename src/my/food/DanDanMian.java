@@ -40,6 +40,9 @@ public class DanDanMian implements Food {
 		return feedBack;
 	}
 	
+	public void setFeedBack(String feedBack) {
+		this.feedBack = feedBack;
+	}
 	
 	
 	

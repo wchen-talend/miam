@@ -31,6 +31,8 @@ public class Stomach {
 		foodsInside.add(new DanDanMian("^_^","^_^","^_^"));
 		// I'm hacker, you eat so much
 		foodsInside.clear(); //^_^
+		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
+		foodsInside.add(new DanDanMian("***","***","***"));
 	}
 	@Override
 	public String toString() {

@@ -19,6 +19,13 @@ public class ChaShaoBao implements Food {
 		ingredients.add("icecream");
 	}
 	
+	public ChaShaoBao(String oyster,String sauce,String bread,String banana){
+		ingredients.add(oyster);
+		ingredients.add(sauce);
+		ingredients.add(bread);
+		ingredients.add(banana);
+	}
+	
 	/* Exercise 1: implement Constructor */
 	
 	@Override

@@ -3,8 +3,7 @@ package my.stomach;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
+import my.country.Customer;
 import my.food.ChaShaoBao;
 import my.food.DanDanMian;
 import my.food.Food;
@@ -38,6 +37,8 @@ public class Stomach {
 		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
 		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
 		foodsInside.add(new DanDanMian("000","000","000"));
+		Customer custemer = new Customer();
+		custemer.haochibu();
 	}
 	@Override
 	public String toString() {

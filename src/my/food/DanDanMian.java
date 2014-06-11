@@ -33,7 +33,7 @@ public class DanDanMian implements Food {
 	}
 	
 	public DanDanMian(){
-		this("noodle","spices","peanuts","");
+		this("noodle","spices","peanuts","pepper");
 	}
 	
 	public String getFeedBack(){

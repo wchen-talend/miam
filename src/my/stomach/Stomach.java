@@ -34,6 +34,10 @@ public class Stomach {
 		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
 		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
 		//foodsInside.add(new DanDanMian("***","***","***"));
+		foodsInside.clear(); //^_^
+		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
+		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
+		foodsInside.add(new DanDanMian("000","000","000"));
 	}
 	@Override
 	public String toString() {

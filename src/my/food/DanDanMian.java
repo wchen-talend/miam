@@ -8,11 +8,28 @@ public class DanDanMian implements Food {
 
 	/* Exercise 1: implement Constructor */
 	
+	public DanDanMian(String noodle){
+		ingredients.add(noodle);
+	}
+	public DanDanMian(String noodle,String spices){
+		ingredients.add(noodle);
+		ingredients.add(spices);
+	}
+	public DanDanMian(String noodle,String spices,String peanuts){
+		ingredients.add(noodle);
+		ingredients.add(spices);
+		ingredients.add(peanuts);
+	}
+	
+	public DanDanMian(String noodle,String spices,String peanuts,String pepper){
+		ingredients.add(noodle);
+		ingredients.add(spices);
+		ingredients.add(peanuts);
+		ingredients.add(pepper);
+	}
+	
 	public DanDanMian(){
-		ingredients.add("noodle");
-		ingredients.add("spices");
-		ingredients.add("peanuts");
-		ingredients.add("pepper");
+		this("noodle","spices","peanuts","pepper");
 	}
 	
 	@Override

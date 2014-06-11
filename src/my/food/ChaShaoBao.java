@@ -15,6 +15,7 @@ public class ChaShaoBao implements Food {
 		ingredients.add(sauce);
 		ingredients.add(bread);
 		ingredients.add("banana");
+		ingredients.add("apple");
 	}
 	
 	/* Exercise 1: implement Constructor */

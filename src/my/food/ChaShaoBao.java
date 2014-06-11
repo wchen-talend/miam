@@ -41,12 +41,6 @@ public class ChaShaoBao implements Food {
 		return Country.China.name();
 	}
 
-	@Override
-	public Integer getCalory() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
 	public Integer getBanana() {
 		// TODO Auto-generated method stub
 		return null;

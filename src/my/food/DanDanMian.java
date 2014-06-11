@@ -59,10 +59,6 @@ public class DanDanMian implements Food {
 		return Country.Italy.name();
 	}
 
-	@Override
-	public Integer getCalory() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 
 }

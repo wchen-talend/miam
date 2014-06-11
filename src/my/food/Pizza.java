@@ -31,10 +31,5 @@ public class Pizza implements Food {
 		return null;
 	}
 
-	@Override
-	public Integer getCalory() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }

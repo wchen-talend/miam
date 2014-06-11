@@ -29,7 +29,7 @@ public class DanDanMian implements Food {
 		ingredients.add(noodle);
 		ingredients.add(spices);
 		ingredients.add(peanuts);
-		ingredients.add(pepper);
+//		ingredients.add(pepper);
 	}
 	
 	public DanDanMian(){

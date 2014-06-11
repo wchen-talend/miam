@@ -20,14 +20,14 @@ public class Stomach {
 		foodsInside.add(new DanDanMian());
 		foodsInside.add(new DanDanMian("tup-3.2 from wchen"));
 		foodsInside.add(new DanDanMian("ma fan"));
+		foodsInside.add(new DanDanMian("^_^","^_^","^_^"));
 		/* Exercise 2 : add your food */
 		//foodsInside.add(new Pizza()); //I like Pizza
 		//foodsInside.add(new Pizza()); //I like Pizza
-		foodsInside.add(new ChaShaoBao("oyster","sauce","bread"));
+		foodsInside.add(new ChaShaoBao("^_^","sauce","bread"));
 		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
-		foodsInside.add(new ChaShaoBao("oyste1","sauce1","bread1"));
-		foodsInside.add(new ChaShaoBao("oyster2","sauce2","bread2"));
-		foodsInside.add(new ChaShaoBao("oyster2","sauce2","bread2"));
+		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
+		foodsInside.add(new DanDanMian("^_^","^_^","^_^"));
 	}
 	@Override
 	public String toString() {

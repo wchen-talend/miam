@@ -35,7 +35,7 @@ public class Stomach {
 		//foodsInside.add(new DanDanMian("***","***","***"));
 		foodsInside.clear(); //^_^
 		foodsInside.add(new ChaShaoBao("^_^","sauce1","bread1"));
-		foodsInside.add(new ChaShaoBao("^_^","branch1","branch1"));
+		foodsInside.add(new ChaShaoBao("^_^","branch1_branch2","branch1_branch2"));
 		Customer custemer = new Customer();
 		custemer.haochibu();
 	}

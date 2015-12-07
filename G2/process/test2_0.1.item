@@ -106,7 +106,7 @@
     <routinesParameter id="_VXQ7EJzBEeWZ34y6ABMrCg" name="TalendDate"/>
     <routinesParameter id="_VXQ7FJzBEeWZ34y6ABMrCg" name="TalendString"/>
   </parameters>
-  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="100" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">

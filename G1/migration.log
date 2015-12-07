@@ -330,3 +330,4 @@
  * Task [Update "compute group quality" to false for non-separate mode] : Applied successfully
  * Task [UnifyPasswordEncryption4MDMServerDefMigrationTask] : Nothing to do
  * Task [AutoUpdateRelationsMigrationTask] : Applied successfully
+ ---=== End of migration ===---
